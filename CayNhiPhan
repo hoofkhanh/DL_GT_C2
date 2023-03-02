@@ -1,0 +1,7 @@
+struct node{
+	int dulieu;
+	node* trai;
+	node* phai;
+};
+
+typedef struc node NODE;
