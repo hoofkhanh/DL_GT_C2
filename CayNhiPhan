@@ -4,4 +4,4 @@ struct node{
 	node* phai;
 };
 
-typedef struc node NODE;
+typedef struct node NODE;
