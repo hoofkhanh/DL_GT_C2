@@ -1,0 +1,7 @@
+float canBac3(int n){
+	if(n==0)
+		return 0;
+	if(n<0)
+		return(-(canBac3(-n)));
+		return exp((log(n)/3));
+}
