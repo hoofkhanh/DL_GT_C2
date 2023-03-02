@@ -1,0 +1,15 @@
+
+struct node{
+	int dulieu;
+	node *ketiep;
+	node *truoc;
+};
+
+typedef struct node NODE;
+
+struct danhSach{
+	NODE* dau;
+	NODE* cuoi;
+};
+
+typedef struct danhSach DS;
