@@ -1,15 +1,7 @@
-int Tong(int a[],int n,int vitri){
-	for(int i=vitri;i<n-1;i++){
-			if(a[i]%2==0){
-				for(int j=i+1;j<n;j++){
-					if(a[j]%2==0)
-						return a[i]+Tong(a,n,j);
-				}
-			}
-	}
-		
-	for(int i=n-1;i>=0;i--){
-		if(a[i]%2==0)
-			return a[i];
-	}	
+int Tong(int a[],int n){
+	if(n==0)
+		return 0;
+	if(a[n-1]%2==0)
+		return a[n-1]+Tong(a,n-1);
+		return Tong(a,n-1);
 }
